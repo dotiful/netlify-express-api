@@ -3,7 +3,7 @@
 [![travis-build][travis-build-image]][travis-build-url]
 [![dependabot][dependabot-image]][dependabot-url]
 
-[travis-build-image]: https://flat.badgen.net/travis/dotiful/netlify-express-api
+[travis-build-image]: https://flat.badgen.net/travis/dotiful/netlify-express-api?icon=travis
 [travis-build-url]: https://travis-ci.org/dotiful/netlify-express-api
 [dependabot-image]: https://flat.badgen.net/dependabot/dependabot/dependabot-core/?icon=dependabot
 [dependabot-url]: https://dependabot.com
