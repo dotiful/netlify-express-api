@@ -7,7 +7,7 @@ router.get('/', (req, res) => { res.json({ route: req.originalUrl }) });
 
 router.post('/', (req, res) => {
   torrent2magnet(req.body.url).then(uri => {
-    return res.send(uri);
+    return res.json({ uri: uri });
   }).catch(err => {
     throw new Error(err);
   });

@@ -37,7 +37,10 @@ Simple Express REST API on Netlify to convert torrent file to magnet URI
 #### CURL
 
 ```sh
-curl -X POST http://localhost:3000/magnet -d "url=https://mac-torrents.io/wp-content/uploads/2019/06/Visual-Studio-Code-1.35.1.zip.torrent"
+curl -X POST \
+  -H "Content-Type: application/json" \
+  -d '{"url":"https://mac-torrents.io/wp-content/uploads/2019/06/Visual-Studio-Code-1.35.1.zip.torrent"}' \
+  http://localhost:3000/magnet
 ```
 
 #### Postman

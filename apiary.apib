@@ -1,80 +1,28 @@
 FORMAT: 1A
-HOST: http://polls.apiblueprint.org/
+HOST: http://Localhost:3000
 
 # dotiful
 
-Polls is a simple API allowing consumers to view polls and vote in them.
+Convert torrent file to magnet URI.
 
-## Questions Collection [/questions]
+## Magnet Collection [/magnet]
 
-### List All Questions [GET]
-
-+ Response 200 (application/json)
-
-        [
-            {
-                "question": "Favourite programming language?",
-                "published_at": "2015-08-05T08:40:51.620Z",
-                "choices": [
-                    {
-                        "choice": "Swift",
-                        "votes": 2048
-                    }, {
-                        "choice": "Python",
-                        "votes": 1024
-                    }, {
-                        "choice": "Objective-C",
-                        "votes": 512
-                    }, {
-                        "choice": "Ruby",
-                        "votes": 256
-                    }
-                ]
-            }
-        ]
-
-### Create a New Question [POST]
-
-You may create your own question using this action. It takes a JSON
-object containing a question and a collection of answers in the
-form of choices.
+### Get magnet URI [POST]
 
 + Request (application/json)
 
         {
-            "question": "Favourite programming language?",
-            "choices": [
-                "Swift",
-                "Python",
-                "Objective-C",
-                "Ruby"
-            ]
+            "url": "https://mac-torrents.io/wp-content/uploads/2019/06/Visual-Studio-Code-1.35.1.zip.torrent"
         }
 
-+ Response 201 (application/json)
-
++ Response 200
+    
     + Headers
 
-            Location: /questions/2
+            Content-Type:application/json; charset=utf-8
 
     + Body
 
             {
-                "question": "Favourite programming language?",
-                "published_at": "2015-08-05T08:40:51.620Z",
-                "choices": [
-                    {
-                        "choice": "Swift",
-                        "votes": 0
-                    }, {
-                        "choice": "Python",
-                        "votes": 0
-                    }, {
-                        "choice": "Objective-C",
-                        "votes": 0
-                    }, {
-                        "choice": "Ruby",
-                        "votes": 0
-                    }
-                ]
+                "uri":"magnet:?xt=urn:btih:2d82f15770ee5376f6cfedce9a05fd6b8aa11d79&dn=Visual+Studio+Code+1.35.1.zip&tr=http%3A%2F%2F182.176.139.129%3A6969%2Fannounce&tr=http%3A%2F%2F91.218.230.81%3A6969%2Fannounce&tr=http%3A%2F%2Fatrack.pow7.com%2Fannounce&tr=http%3A%2F%2Fp4p.arenabg.com%3A1337%2Fannounce&tr=http%3A%2F%2Ftracker.appdn.net%3A2710%2Fannounce"
             }
