@@ -22,7 +22,7 @@
     "torrent2magnet": "^1.0.0"
   },
   "devDependencies": {
-    "@babel/core": "^7.5.0",
+    "@babel/core": "^7.6.2",
     "@babel/node": "^7.5.0",
     "@babel/preset-env": "^7.5.0",
     "nodemon": "^1.18.9"
