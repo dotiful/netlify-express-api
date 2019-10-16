@@ -17,7 +17,7 @@
   "dependencies": {
     "body-parser": "^1.18.3",
     "cors": "^2.8.5",
-    "dotenv": "^8.0.0",
+    "dotenv": "^8.2.0",
     "express": "^4.16.4",
     "torrent2magnet": "^1.0.0"
   },
