@@ -1,9 +1,10 @@
 import 'dotenv/config';
 import cors from 'cors';
 import bodyParser from 'body-parser';
-import express from 'express';
+// import express from 'express';
 import serverless from "serverless-http";
 
+const express = require('express');
 const app = express();
 const router = express.Router();
 
