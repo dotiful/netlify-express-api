@@ -4,6 +4,7 @@
   "description": "Simple Express REST API to convert torrent file to magnet URI",
   "main": "src/index.js",
   "scripts": {
+    "build": "netlify-lambda build src",
     "start": "nodemon --exec babel-node src/index.js",
     "test": "echo \"No test specified\" && exit 0"
   },
@@ -15,10 +16,12 @@
   "author": "Art Dev artdevjs@gmail.com <https://github.com/dotiful>",
   "license": "MIT",
   "dependencies": {
-    "body-parser": "^1.18.3",
+    "body-parser": "^1.19.0",
     "cors": "^2.8.5",
     "dotenv": "^8.2.0",
     "express": "^4.16.4",
+    "netlify-lambda": "^2.0.2",
+    "serverless-http": "^2.6.0",
     "torrent2magnet": "^1.0.0"
   },
   "devDependencies": {
