@@ -2,7 +2,7 @@
   "name": "netlify-express-api",
   "version": "0.1.0",
   "description": "Simple Express REST API to convert torrent file to magnet URI",
-  "main": "src/index.js",
+  "main": "functions/index.js",
   "scripts": {
     "build": "netlify-lambda build src",
     "start": "nodemon --exec babel-node src/index.js",
