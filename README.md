@@ -1,14 +1,22 @@
 # Simple Express REST API on Netlify
 
-[![travis-build][travis-build-image]][travis-build-url]
-[![dependabot][dependabot-image]][dependabot-url]
+[![][dependabot-merge-image]][dependabot-merge-url]
+[![][gh-deploy-image]][gh-deploy-url]
 
-[travis-build-image]: https://flat.badgen.net/travis/dotiful/netlify-express-api?icon=travis
-[travis-build-url]: https://travis-ci.org/dotiful/netlify-express-api
-[dependabot-image]: https://flat.badgen.net/dependabot/dependabot/dependabot-core/?icon=dependabot
-[dependabot-url]: https://dependabot.com
+[![Netlify Deploy][netlify-deploy-image]][netlify-deploy-url]
+[![Netlify Status][netlify-status-image]][netlify-status-url]
 
-[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/dotiful/netlify-express-api)
+[dependabot-merge-image]: https://github.com/dotiful/netlify-express-api/workflows/dependabot-auto-merge/badge.svg
+[dependabot-merge-url]: https://github.com/dotiful/netlify-express-api/actions?query=workflow%3Adependabot-auto-merge
+
+[gh-deploy-image]: https://github.com/dotiful/netlify-express-api/workflows/deploy/badge.svg
+[gh-deploy-url]: https://github.com/dotiful/netlify-express-api/actions?query=workflow%3Adeploy
+
+[netlify-deploy-image]: https://www.netlify.com/img/deploy/button.svg
+[netlify-deploy-url]: https://app.netlify.com/start/deploy?repository=https://github.com/dotiful/netlify-express-api
+
+[netlify-status-image]: https://api.netlify.com/api/v1/badges/ffc376ed-9c60-48f9-a084-5e1020ff1953/deploy-status
+[netlify-status-url]: https://app.netlify.com/sites/eloquent-snyder-4d7ee9/deploys
 
 Simple Express REST API on Netlify to convert torrent file to magnet URI
 
@@ -21,8 +29,8 @@ Simple Express REST API on Netlify to convert torrent file to magnet URI
 
 ## Requirements
 
-* [node & npm](https://nodejs.org/en/)
 * [git](https://www.robinwieruch.de/git-essential-commands/)
+* [nodejs](https://nodejs.org/en/) & [yarn](https://yarnpkg.com)
 
 ## Installation
 
@@ -33,6 +41,8 @@ Simple Express REST API on Netlify to convert torrent file to magnet URI
 * optional: include *.env* in your *.gitignore*
 
 ### Examples of how to access the Express.js endpoints
+
+Check API reference at [apiary.io](https://dotiful.docs.apiary.io)
 
 #### CURL
 
