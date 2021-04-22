@@ -27,7 +27,7 @@
     "netlify-lambda": "^2.0.4",
     "serverless-http": "^2.7.0",
     "torrent2magnet": "^1.0.0",
-    "webpack-node-externals": "^2.5.2"
+    "webpack-node-externals": "^3.0.0"
   },
   "devDependencies": {
     "@babel/cli": "^7.13.16",
