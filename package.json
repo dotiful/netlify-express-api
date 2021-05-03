@@ -24,7 +24,7 @@
     "cors": "^2.8.5",
     "dotenv": "^8.2.0",
     "express": "^4.16.4",
-    "netlify-lambda": "^2.0.4",
+    "netlify-lambda": "^2.0.6",
     "serverless-http": "^2.7.0",
     "torrent2magnet": "^1.0.0",
     "webpack-node-externals": "^2.5.2"
