@@ -30,14 +30,14 @@ Simple Express REST API on Netlify to convert torrent file to magnet URI
 ## Requirements
 
 * [git](https://www.robinwieruch.de/git-essential-commands/)
-* [nodejs](https://nodejs.org/en/) & [yarn](https://yarnpkg.com)
+* [nodejs](https://nodejs.org/en/)
 
 ## Installation
 
 * `git clone git@github.com:dotiful/netlify-express-api.git`
 * `cd netlify-express-api`
-* `yarn install`
-* `yarn start`
+* `npm install`
+* `npm run start`
 * optional: include *.env* in your *.gitignore*
 
 ### Examples of how to access the Express.js endpoints
