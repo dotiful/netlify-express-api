@@ -1,22 +1,22 @@
 # Simple Express REST API on Netlify
 
-[![][dependabot-merge-image]][dependabot-merge-url]
 [![][gh-deploy-image]][gh-deploy-url]
+[![][dependabot-merge-image]][dependabot-merge-url]
 
 [![Netlify Deploy][netlify-deploy-image]][netlify-deploy-url]
 [![Netlify Status][netlify-status-image]][netlify-status-url]
 
-[dependabot-merge-image]: https://github.com/dotiful/netlify-express-api/workflows/dependabot-auto-merge/badge.svg
-[dependabot-merge-url]: https://github.com/dotiful/netlify-express-api/actions?query=workflow%3Adependabot-auto-merge
-
 [gh-deploy-image]: https://github.com/dotiful/netlify-express-api/workflows/deploy/badge.svg
 [gh-deploy-url]: https://github.com/dotiful/netlify-express-api/actions?query=workflow%3Adeploy
+
+[dependabot-merge-image]: https://github.com/dotiful/netlify-express-api/workflows/dependabot-auto-merge/badge.svg
+[dependabot-merge-url]: https://github.com/dotiful/netlify-express-api/actions?query=workflow%3Adependabot-auto-merge
 
 [netlify-deploy-image]: https://www.netlify.com/img/deploy/button.svg
 [netlify-deploy-url]: https://app.netlify.com/start/deploy?repository=https://github.com/dotiful/netlify-express-api
 
-[netlify-status-image]: https://api.netlify.com/api/v1/badges/ffc376ed-9c60-48f9-a084-5e1020ff1953/deploy-status
-[netlify-status-url]: https://app.netlify.com/sites/eloquent-snyder-4d7ee9/deploys
+[netlify-status-image]: https://api.netlify.com/api/v1/badges/8272d4b2-d2ab-4be8-8c26-e22068202e8a/deploy-status
+[netlify-status-url]: https://app.netlify.com/sites/festive-leavitt-8531bb/deploys
 
 Simple Express REST API on Netlify to convert torrent file to magnet URI
 
